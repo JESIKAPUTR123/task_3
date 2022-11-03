@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#klik {
+    height: 25%;
+    width: 30%;
+    background-color: rgb(0, 3, 3);
+    color: white;
+}
+
+#main {
+    display: none;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
